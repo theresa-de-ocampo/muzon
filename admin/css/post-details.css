@@ -1,0 +1,18 @@
+#post-details h2,
+#post-details h4 {
+	text-align: center;
+}
+
+#post-details img {
+	display: block;
+	height: auto;
+	margin: 30px auto;
+	width: 70%;
+	box-shadow: 0px 0px 30px 0 #3c4f6c;
+	border-radius: 15px;
+}
+
+#post-details p {
+	font-family: GlacialRegular, sans-serif;
+	text-align: justify;
+}

@@ -1,0 +1,82 @@
+.dataTables_wrapper {
+	text-align: center;
+}
+
+.dataTables_wrapper > div:not(.dataTables_info):not(.dataTables_paginate) {
+	height: 50px;
+	padding: 30px 0;
+}
+
+.dataTables_wrapper > div:not(.dataTables_info):not(.dataTables_paginate) > * {
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+th {
+	background-color: var(--saffron);
+}
+
+#household-tbl td {
+	text-align: center;
+}
+
+table.display.dataTable tbody tr:hover,
+table.display.dataTable tbody tr:hover > .sorting_1 {
+  background-color: var(--mustard);
+}
+
+td {
+	text-align: center;
+}
+
+.fas,
+button,
+#add-blotter table tr:hover {
+	cursor: pointer;
+}
+
+.fa-user-edit,
+.fa-edit,
+.fa-copy,
+.fa-eye,
+#blotter .fa-check-circle,
+.fa-trash-restore,
+.fa-plus-square {
+	color: var(--aqua);
+}
+
+.fa-user-edit:hover,
+.fa-edit:hover,
+.fa-copy:hover,
+.fa-eye:hover,
+#blotter .fa-check-circle:hover,
+.fa-trash-restore:hover,
+.fa-plus-square:hover {
+	color: var(--cyan);
+}
+
+.fa-user-minus,
+.fa-user-slash,
+.fa-minus-square,
+.fa-trash-alt {
+	color: var(--papaya);
+}
+
+.fa-user-minus:hover,
+.fa-user-slash:hover,
+.fa-minus-square:hover,
+.fa-trash-alt:hover {
+	color: var(--tall-poppy);
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td.dtr-control:before {
+    background-color: var(--aqua);
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control:before {
+    background-color: var(--papaya);
+}

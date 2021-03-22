@@ -1,0 +1,105 @@
+input:not([type="search"]):not([type="radio"]),
+textarea,
+.modal select,
+.grid-item select {
+	background-color: var(--light-gray);
+	border-radius: 5px;
+	border: 1px solid black;
+	display: block;
+	padding: 3px 8px;
+}
+
+input:disabled,
+input:read-only,
+.readonly {
+	color: #434343;
+}
+
+#add-blotter input[type="number"],
+#new-cycle input[type="number"] {
+	display: inline;
+}
+
+/* Removes spinner constrols in Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Removes spinner constrols in Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+input[type="radio"]:not(:first-of-type) {
+	margin-left: 10px;
+}
+
+input.readonly {
+	display: inline-block;
+	width: 50px;
+}
+
+textarea {
+	resize: none;
+}
+
+footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+button[type="reset"],
+button[type="submit"] {
+	border-radius: 5px;
+	padding: 8px 0px;
+	width: 80px;
+}
+
+option:first-child {
+	display: none;
+}
+
+button[type="submit"] {
+	background-color: var(--aqua);
+	border-style: outset;
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+button[type="submit"]:hover {
+	background-color: var(--cyan);
+}
+
+button {
+	border: 1px solid #717171;
+}
+
+button:hover {
+	background-color: var(--gray);
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.solo {
+	grid-column: 1/3;
+	width: 100%;
+}
+
+#new-line {
+	display: none;
+}
+
+.short {
+	width: 25%;
+}
+
+p > *:not(input) {
+	font-size: 20px;
+	vertical-align: middle;
+}

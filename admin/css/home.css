@@ -1,0 +1,55 @@
+#dashboard h2 {
+	margin-bottom: 20px;
+}
+
+#dashboard .grid-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px 50px;
+	color: white;
+}
+
+#dashboard .flex-wrapper {
+	display: flex;
+}
+
+#dashboard .grid-item > div {
+	height: 130px;
+}
+
+div.fas {
+	background-color: red;
+	border-right: 1px solid white;
+}
+
+#dashboard .fas {
+	width: 30%;
+	font-size: 30px;
+	margin: auto;
+	line-height: 130px;
+	text-align: center;
+	cursor: auto;
+	background-color: var(--cyan);
+}
+
+.tally {
+	width: 70%;
+	background-color: var(--logan);
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10%;
+}

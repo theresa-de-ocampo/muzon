@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	font-family: "Glacial Indifference", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #fff;
+	background-image: url("../img/backdrop.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	height: 100%;
+	margin:0;
+	place-items: center;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	height: 200px;
+	margin-bottom: 30px;
+}

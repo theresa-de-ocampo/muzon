@@ -1,0 +1,39 @@
+main > a {
+	color: blue;
+	display: inline-block;
+}
+
+main > a,
+#instructions {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+main > a:hover {
+	color: var(--tall-poppy);
+}
+
+.fa-arrow-circle-left {
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+html {
+	scroll-padding-top: 100px;
+}
+
+hr {
+	margin-top: 30px;
+}
+
+.outer.grid-wrapper {
+	font-size: 18px;
+	grid-row-gap: 15px;
+	justify-items: center;
+	margin: 30px auto;
+	width: 70%;
+}
+
+.outer.grid-wrapper > div:not(.solo) {
+	width: 70%;
+}

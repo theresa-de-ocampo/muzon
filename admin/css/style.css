@@ -1,0 +1,93 @@
+@font-face {
+	font-family: GlacialBold;
+	src: url("../fonts/GlacialIndifference-Bold.otf");
+}
+
+@font-face {
+	font-family: GlacialRegular;
+	src: url("../fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+	font-family: MontserratBlack;
+	src: url("../fonts/Montserrat-Black.otf");
+}
+
+@font-face {
+	font-family: MontserratThin;
+	src: url("../fonts/Montserrat-Thin.otf");
+}
+
+:root {
+	--aqua: #008f95;
+	--cyan: #03B8C0;
+	--papaya: #e24242;
+	--tall-poppy: #b2272b;
+	--medium-carmine: #b43d40;
+	--saffron: #f5d23b;
+	--mustard: #ffa;
+	--logan: #a2aec7;
+	--light-gray: #eaeaea;
+	--gray: #d0d0d0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: GlacialRegular, sans-serif;
+}
+
+main {
+	padding: 10px 50px;
+}
+
+h1 {
+	display: inline-block;
+	font-family: MontserratBlack, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 100px 0 20px;
+}
+
+h2 {
+	font-family: MontserratBlack, sans-serif;
+	font-size: 28px;
+	margin: 20px 0 10px 0;
+}
+
+h2 span,
+p span {
+	color: var(--tall-poppy);
+}
+
+h3 {
+	font-family: MontserratBlack, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	background-color: var(--saffron);
+	padding: 10px;
+}
+
+p {
+	font-family: GlacialBold, sans-serif;
+}
+
+main {
+	margin: 100px 100px 70px 100px;
+}
+
+section:not(:first-of-type) {
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}

@@ -1,0 +1,56 @@
+.overlay {
+	background-color: #717171;
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 0;
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.modal {
+	background-color: white;
+	display: none;
+	padding-bottom: 20px;
+	position: fixed;
+	width: 600px;
+	z-index: 3;
+}
+
+.modal .grid-wrapper {
+	grid-column-gap: 30px;
+	grid-row-gap: 10px;
+	margin: 20px 40px;
+}
+
+.modal label {
+	display: block;
+	font-size: 15px;	
+}
+
+.modal .inline {
+	background-color: var(--light-gray);
+	border-radius: 5px;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.modal input:not([type="radio"]) {
+	width: 100%;
+}
+
+.modal .grid-item .medium {
+	width: 70%;
+}
+
+.modal .grid-item .some-medium {
+	width: 50%;
+}
+
+.modal .grid-item .short {
+	width: 30%;
+}

@@ -1,0 +1,109 @@
+body {
+	counter-reset: step;
+}
+
+h2:before {
+	content: "Step " counter(step) ": ";
+	counter-increment: step;
+}
+
+#add-blotter section p {
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+#complainant-menu,
+#complainant-menu button {
+	background-color: var(--logan);
+}
+
+#complainant-menu {
+	border-radius: 15px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#complainant-menu button {
+	border-radius: 5px;
+	border: 1px solid white;
+	color: white;
+	font-family: "Glacial Indifference", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+#complainant-menu .selected {
+	background-color: var(--medium-carmine);
+}
+
+#complainant-menu button:not(.selected):hover {
+	background-color: var(--light-gray);
+	border: 1px solid black;
+	color: black;
+	transition: 0.5s;
+}
+
+#complainant .short {
+	width: 70%;
+}
+
+#complainant .medium {
+	width: 100%;
+}
+
+#complainant label {
+	display: block;
+}
+
+#complainant div.outer {
+	display: none;
+}
+
+#complainant .fname, .mname, .lname, .contact-no {
+	grid-column: 1;
+}
+
+#complainant .mname {
+	grid-row: 2;
+}
+
+#complainant .lname {
+	grid-row: 3;
+}
+
+#complainant .contact-no {
+	grid-row: 4;
+}
+
+#complainant .address, .brgy, .city-town, .province {
+	grid-column: 2;
+}
+
+#complainant .address {
+	grid-row: 1;
+}
+
+#complainant .brgy {
+	grid-row: 2;
+}
+
+#complainant .city-town {
+	grid-row: 3;
+}
+
+#complainant .province {
+	grid-row: 4;
+}
+
+#incident-place {
+	width: 100%;
+}
+
+div.solo {
+	margin-top: 20px;
+}
