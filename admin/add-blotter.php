@@ -43,6 +43,7 @@
 				<h2><span>Complained Resident</span></h2>
 				<p>
 					<b>Complained Resident: </b>
+					<!-- Elements with a class of "readonly" emulates read-only inputs, but keeps the HTML5 validation. -->
 					<input id="complained-resident-id" type="number" name="complained-resident-id" class="readonly" required />
 					<span class="name-holder"><i>(Click on a row.)</i></span>
 				</p>
